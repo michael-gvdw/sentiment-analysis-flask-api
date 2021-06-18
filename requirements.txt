@@ -9,7 +9,6 @@ click==7.1.2
 dill==0.3.4
 Flask==1.1.2
 Flask-RESTful==0.3.8
-Flask-SQLAlchemy==2.4.3
 flatbuffers==1.12
 future==0.18.2
 gast==0.4.0
