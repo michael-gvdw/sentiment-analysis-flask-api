@@ -36,4 +36,4 @@ class SentimentResource(Resource):
 api.add_resource(SentimentResource, '/sentiment-analysis')
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
