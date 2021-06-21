@@ -8,7 +8,7 @@ For the Open Program (Week 17 - Week 18) I will be investigating Python Flask. F
 
 ### Goal
 
-The goal of this project is to create a REST API that hosts the Deep Learning Model for Sentiment Analysis created in the tensorflow-sentiment-analysis repository. Users will be able to query the API by passing a sentence as a parameter and be provided how positive or negative the sentence is.
+The goal of this project is to create a REST API that hosts the Deep Learning Model for Sentiment Analysis created in the [tensorflow-sentiment-analysis](https://github.com/michael-gvdw/tenserflow-sentiment-analysis.git) repository. Users will be able to query the API by passing a sentence as a parameter and be provided how positive or negative the sentence is.
 
 ## Code Explanation
 
