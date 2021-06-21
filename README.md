@@ -67,6 +67,35 @@ Finally, we need to check that the current file is the "main" file and run the f
     if __name__ == "__main__":
         app.run()
 
+## Running the project 
+
+In order to run the project the following steps need to be executed:
+
+1) Install [Anaconda](https://docs.anaconda.com/anaconda/install/) if not already installed.
+
+2) Create a python virtual environment in the project directory:
+    
+        >>> conda create -p ./.venv python=3.8
+
+3) Activate the python environment
+
+        >>> source activate ./.venv
+
+4) Install all the required depndencies.
+
+        >>> pip install -r requirements.txt
+
+5) Run the server.
+
+        >>> python main.py
+
+6) Open the following link in your favourite browser.
+
+        http://127.0.0.1:5000/sentiment-analysis?sentence=This%20is%20the%20passed%20sentence%20for%20analysis
+
+
+
+
 ## Conclusion
 
-In summary I have succesfully setup a basic Python Flask REST API which hosts a Deep Learning Model. With the knowledge aqcuired in developing this API I am capable of applying that in bigger and more complex projects.
+By investigating the micro web framework Python Flask I have learned how to transfer information over the HTTP protocol using Python. The knowledge gained in the process of developing the REST API will nicely transition into my Internship as I will be developing and maintaining a Python Flask API. Lastly by hosting the Deep Learning model from the tensorflow-senitment-analysis repository I have also learned a way to meke the capabilities and power of AI accessible to other people.
